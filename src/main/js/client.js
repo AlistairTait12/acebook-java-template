@@ -14,3 +14,5 @@ module.exports = rest
 		.wrap(mime, { registry: registry })
 		.wrap(errorCode)
 		.wrap(defaultRequest, { headers: { 'Accept': 'application/hal+json' }});
+
+// What is client.js doing?

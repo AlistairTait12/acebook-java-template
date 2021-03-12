@@ -1,7 +1,7 @@
 import React from 'react';
 import Posts from './posts'
 const client = require('../client');
-
+// This PostsBuilder class is used in the app.js as a react component
 class PostsBuilder extends React.Component {
   constructor(props) {
     super(props)

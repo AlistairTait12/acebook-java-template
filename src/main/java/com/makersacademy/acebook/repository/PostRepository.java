@@ -6,3 +6,4 @@ import org.springframework.data.repository.CrudRepository;
 public interface PostRepository extends CrudRepository<Post, Long> {
 
 }
+// This basically handles logic for managing the database??

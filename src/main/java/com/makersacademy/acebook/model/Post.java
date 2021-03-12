@@ -14,14 +14,14 @@ import lombok.Data;
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String content;
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Generates each unique ID for the db records?
+    private Long id;        // ID of post
+    private String content; // String content of the post
 
     private Post() {}
 
-    public Post(String content) {
-        this.content = content;
+    public Post(String content) { // Constructor of the post
+        this.content = content;   // Notice that the id does not need to be handled in the constructor
     }
 
 }
